@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cityNameDisplay.textContent = `City: ${name}`;
     temperatureDisplay.textContent = `Temperature: ${main.temp}`;
     descriptionDisplay.textContent = `Weather: ${weather[0].main}`;
+    errorMessage.classList.add("hidden");
      
   }
 
